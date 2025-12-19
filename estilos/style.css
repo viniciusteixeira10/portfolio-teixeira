@@ -28,6 +28,15 @@
     --fundo-card: #ffffff;
 }
 
+body.escuro{
+    --fundo-principal: #0f172a;   
+    --texto: #e5e7eb;             
+    --texto-inverso: #0f172a;    
+    --destaque: #60a5fa;          
+    --destaque-inverso: #3b82f6;  
+    --fundo-card: #1b273a;    
+}
+
 body{
     /*font-family: "Work Sans", sans-serif;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
