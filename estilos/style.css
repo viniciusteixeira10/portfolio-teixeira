@@ -128,7 +128,7 @@ section#detalhes{
 article{
     background-color: var(--fundo-card);
     padding: 20px;
-    margin: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 
@@ -137,7 +137,7 @@ article h2{
     margin-bottom: 20px;
 }
 
-.video-container{
+article#video .video-container{
     position: relative;
     width: 100%;
     margin: auto;
@@ -268,7 +268,7 @@ footer a:hover{
     color: var(--destaque-inverso);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     main{
         grid-template-columns: auto 300px 1fr auto;
     }
